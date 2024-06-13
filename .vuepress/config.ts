@@ -9,7 +9,7 @@ const domain = "https://codefather.cn";
 const tags = ["程序员", "编程", "计算机"];
 
 export default defineConfig({
-  title: "鱼皮的编程宝典",
+  title: "苏州科乐奇",
   description: "贴心的编程学习路线，全面的编程知识百科",
   head: [
     // 站点图标
@@ -119,10 +119,6 @@ export default defineConfig({
     nav: navbar,
     sidebar,
     lastUpdated: "最近更新",
-
-    // GitHub 仓库位置
-    repo: "liyupi/codefather",
-    docsBranch: "master",
 
     // 编辑链接
     editLinks: true,
