@@ -4,7 +4,7 @@
   "scripts": {
     "docs:dev": "vuepress dev .",
     "docs:cmd_build": "set NODE_OPTIONS=--openssl-legacy-provider --max_old_space_size=8192 && vuepress build .",
-    "docs:build": "export NODE_OPTIONS=--openssl-legacy-provider --max_old_space_size=8192 && vuepress build ."
+    "docs:build": "export NODE_OPTIONS='--openssl-legacy-provider --max_old_space_size=8192' vuepress build ."
   },
   "license": "MIT",
   "devDependencies": {
