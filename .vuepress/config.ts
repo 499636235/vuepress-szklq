@@ -4,13 +4,13 @@ import sidebar from "./sidebar";
 import footer from "./footer";
 import extraSideBar from "./extraSideBar";
 
-const author = "程序员鱼皮";
-const domain = "https://codefather.cn";
-const tags = ["程序员", "编程", "计算机"];
+const author = "倪捷扬";
+const domain = "https://www.szkeleqi.com";
+const tags = ["玩具", "沙发", "颈枕", "靠垫", "宠物用品", "苏州科乐奇"];
 
 export default defineConfig({
   title: "苏州科乐奇",
-  description: "贴心的编程学习路线，全面的编程知识百科",
+  description: "苏州科乐奇工艺品有限公司",
   head: [
     // 站点图标
     ["link", { rel: "icon", href: "/favicon.ico" }],
@@ -20,7 +20,7 @@ export default defineConfig({
       {
         name: "keywords",
         content:
-          "程序员鱼皮, 编程学习路线, 编程知识百科, Java, 编程导航, 前端, 开发, 编程分享, 项目, IT, 求职, 面经",
+          "玩具, 沙发, 颈枕, 靠垫, 宠物用品, 苏州科乐奇",
       },
     ],
     // 百度统计
@@ -128,6 +128,6 @@ export default defineConfig({
     // 底部版权信息
     footer,
     // 额外右侧边栏
-    extraSideBar,
+    // extraSideBar,
   },
 });

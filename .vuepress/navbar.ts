@@ -10,10 +10,6 @@ export default [
         link: '/产品线/'
     },
     {
-        text: "产品",
-        link: '/产品/'
-    },
-    {
         text: "公司介绍",
         link: '/公司介绍/'
     },
@@ -21,4 +17,8 @@ export default [
         text: "联系我们",
         link: '/联系我们/'
     },
+    // {
+    //     text: "学习路线",
+    //     link: '/学习路线/'
+    // },
 ] as NavItem[];
