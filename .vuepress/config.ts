@@ -9,6 +9,7 @@ const domain = "https://www.szkeleqi.com";
 const tags = ["玩具", "沙发", "颈枕", "靠垫", "宠物用品", "苏州科乐奇"];
 
 export default defineConfig({
+  dest: "src/.vuepress/dist",
   title: "苏州科乐奇",
   description: "苏州科乐奇工艺品有限公司",
   head: [
